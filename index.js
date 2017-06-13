@@ -81,6 +81,11 @@ const BC_RPC = {
   walletLock: [],
   walletPassPhrase: [],
   walletPassphraseChange: [],
+
+  // Elements-specific RPC Calls
+  dumpAssetLabels: [],
+  dumpBlindingKey: [],
+  importBlindingKey: [],
 };
 
 const slice = (arr, start, end) => Array.prototype.slice.call(arr, start, end);
